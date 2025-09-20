@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunnydale School Information Hub</title>
+  <style>
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      color: rgb(15, 15, 155);
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+    h2 {
+      color: #1e1356;
+    }
+    h2.contact {
+      color: #1e1356;
+      font-style: italic;
+    }
+    h2#upcoming-events {
+      color: #1e1356;
+      background-color: #8e8ad7;
+    }
+    .outdoor {
+      background-color: #AFEEEE;
+      padding: 5px;
+      border: 1px solid #B0E0E6;
+    }
+    .section {
+      background-color: #f8f3f3;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Our School</h1>
+
+  <h2 class="h2">Mission Statement</h2>
+  <p>Our mission is to inspire lifelong learning and empower students to achieve their fullest potential.</p>
+
+  <h2 id="upcoming-events">Upcoming Events</h2>
+  <ul>
+    <li data-event-type="indoor" title="Event Type: Indoor">Science Fair - <span style="font-weight: bold; color: #890909;">June 10</span></li>
+    <li class="outdoor" data-event-type="outdoor" title="Event Type: Outdoor">Art Exhibition - <span style="font-weight: bold; color: #890909;">June 15</span></li>
+    <li class="outdoor" data-event-type="outdoor" title="Event Type: Outdoor">Sports Day - <span style="font-weight: bold; color: #890909;">June 20</span></li>
+  </ul>
+
+  <h2 class="contact">Contact Us</h2>
+  <div class="section">
+    <p>Email: <a href="mailto:info@ourschool.edu" title="Click to copy email">info@ourschool.edu</a></p>
+    <p>Phone: <a href="tel:+1234567890" title="Click to copy phone">+1 234 567 890</a></p>
+  </div>
+  <!-- Imagine clicking here shows a message: 'Thanks for reaching out!' -->
+</body>
+</html>
